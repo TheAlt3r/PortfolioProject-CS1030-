@@ -16,7 +16,7 @@
 </head>
 
 
-<body>
+<body style="padding-top: 70px;">
   <!-- Navbar gets added here -->
   <div id="nav-placeholder"></div>
   <!-- Web page content goes inside Bootstrap container(s) -->
@@ -27,9 +27,50 @@
 
   <!--below is the Bootstrap container for responsive design-->
   <!-- this is just a intro to the website-->
-  <div class="container-fluid">
-    <h1>My Projects</h1>
-    <p>Here are some of the projects I have worked on:</p>
+  <div class="container-fluid px-5">
+    <h1 style="text-align: center;">My Projects</h1>
+
+    <!-- Project 1 put in its own black box container to be more visually appealing and organized-->
+    <div class="container-fluid bg-dark text-white rounded pt-3" style="height: 500px;">
+      <img src="images/webThumbnail.png" alt="Portfolio Website" class="img-fluid float-end" style="width: 800px; height: auto;">
+      <h2 style="text-align: center">Project 1: Portfolio Website</h2>
+      <p>This very website is a project that is 100% done by myself, with guidence from my Professor of course. It is built with HTML and Bootstrap.
+        when first starting this project, I had to plan out the website using low-fidelity wireframing, where I shaped the layout of the website and where I wanted to place the content. 
+        After that, I started to build the website using HTML and Bootstrap. I also made sure that the website is accessible to the disabled using the WAVE extention and outside input. 
+        Finally, I made sure that the website is responsive using Bootstrap, adding onto the accessibility of the website. 
+      </p>
+      <p>the website was saved and maintained using Git and GitHub by committing changes regularly and pushing them to the remote repository.</p>
+      <p>Any new information that I learned throughout the development I put into my technical document, for easy access later. Rather than searching for information online and in class slides over and over again.</p>
+      <p>skills demonstrated:</p>
+        <ul>
+          <li>HTML</li>
+          <li>Bootstrap</li>
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+    </div>
+    <!-- project 1 box ends-->
+
+
+    <!-- Project 2 also put in its own black box container, image is now to the left to have a pattern for the website-->
+    <div class="container-fluid bg-dark text-white rounded pt-3" style="height: 500px; margin-top: 20px;">
+      <img src="images/practicingWebsite.png" alt="practice website" class="img-fluid float-end" style="width: 800px; height: auto;">
+      <h2 style="text-align: center;">Project 2: HTML web building practice</h2>
+
+      <p>This project involved practicing HTML and Bootstrap by implementing with the many elements to build a simple website. I made my to resemble a pet grooming service.
+        The main idea for this project was to build our <a href="https://docs.google.com/document/d/1DzKqvoLwIMCXy8O412b3agdkLjPVhDlqGD2mKYwoFWc/edit?tab=t.0" target="_blank">technical document</a>, learn web accessibility, responsiveness, and how to commit and push with git and GitHub. 
+      </p>
+      <p>skills demonstrated:</p>
+        <ul>
+          <li>technical documentation</li>
+          <li>HTML</li>
+          <li>Bootstrap</li>
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+    </div>
+    <!-- project 2 box ends-->
+
   </div>
 </body>
 </html>
