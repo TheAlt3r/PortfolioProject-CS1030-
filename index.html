@@ -17,7 +17,7 @@
 </head>
 
 <!-- padding is added so that the navbar doesn't cover the header-->
-<body style="padding-top: 70px;">
+<body style="padding-top: 70px; background-color: #ae86fa;">
   <!-- Navbar gets added here -->
   <div id="nav-placeholder"></div>
   <!-- Web page content goes inside Bootstrap container(s) -->
@@ -32,22 +32,117 @@
   <div class="container-fluid px-5">
     <h1 style="text-align: center;">I am Reese Solorio, welcome to my website portfolio</h1>
     <img src="images/Pfp.jpg" alt="Reese Solorio" class= "rounded-circle float-end me-5" style="width: 650px; height: auto;">
-    <p>I am currently a student at <a href="https://www.msudenver.edu" target="_blank">MSU denver</a> majoring in Computer science and plan to graduate in 2030</p>
+    <p style="font-size: 25px;">I am currently a student at <strong><a href="https://www.msudenver.edu" target="_blank">MSU denver</a></strong> majoring in Computer science and plan to graduate in <strong>2030</strong>.</p>
     <img src="images/MSUdvrLogo.png" alt="MSU denver logo" style="width: 200px; height: auto;">
-    <p>I aspire to be a game developer or software engineer, or even both, at <a href="https://www.valvesoftware.com/en/?job_cat=software-engineering" target="_blank">Valve Corporation</a></p>
-    <p>I currently have 2 <a href="projects.html">projects</a> that apply HTML and bootstrap</p>
-    <p>skills:</p>
-    <ul>
-      <li>HTML</li>
-      <li>Technical Documentation</li>
-      <li>Knowledgeable on how to make and maintain a github page</li>
-      <li>Bootstrap</li>
-      <li>CSS</li>
-      <li>Knowledge on how to make a website accessible to the disabled using wave and other tools</li>
-      <li>how to make a website responsive using bootstrap</li>
-      <li>website build planning using low-fidelity wireframes</li>
-      <li>how to analyze wireshark</li>
-    </ul>
+    <p style="font-size: 25px;">I chosed to major in computer science becuase I enjoy web, game, and software development. 
+      They all have been topics that surrounded me majority of my life, and now I want to be apart of it.</p>
+    <p style="font-size: 25px;">I dream of being apart of it by becoming a game developer or software engineer, or even both, at 
+      <strong><a href="https://www.valvesoftware.com/en/?job_cat=software-engineering" target="_blank">Valve Corporation</a></strong>.</p>
+    <p style="font-size: 25px;">I am currently learning HTML, CSS, Bootstrap, and Cybersecurity. I currently have 2 <strong><a href="projects.html">projects</a></strong> that apply HTML, CSS, and Bootstrap</p>
+    <h2>skills:</h2>
+<!-- below is a accordion to list out skills with a explanation for each-->
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapse1">
+          HTML
+        </a>
+      </div>
+      <div id="collapse1" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of HTML structure and semantics.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse2">
+          CSS
+        </a>
+      </div>
+      <div id="collapse2" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of CSS styling and layout techniques.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse3">
+          Bootstrap
+        </a>
+      </div>
+      <div id="collapse3" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of Bootstrap and its grid system.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse4">
+          Technical Documentation
+        </a>
+      </div>
+      <div id="collapse4" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of technical documentation and how to create and maintain it.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse5">
+          How to make and maintain a github page
+        </a>
+      </div>
+      <div id="collapse5" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of how to make and maintain a github page.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse6">
+          Knowledge on how to make a website accessible to the disabled using wave and other tools
+        </a>
+      </div>
+      <div id="collapse6" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of how to make a website accessible to the disabled using wave and other tools.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse7">
+          website build planning using low-fidelity wireframes
+        </a>
+      </div>
+      <div id="collapse7" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of how to make and maintain a github page.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse8">
+          How to analyze wireshark
+        </a>
+      </div>
+      <div id="collapse8" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          I have a good understanding of how to analyze wireshark.
+        </div>
+      </div>
+    </div>
   </div>
+
+</div>
+<div class="container-fluid bg-dark text-white px-5">
+  <h1 style="text-align: center;">My Resume</h1>
+  <img src="images/ReeseResume.png" alt="Reese Solorio's Resume" class= "img-fluid mx-auto d-block" style="width: 500px; height: auto;">
 </body>
 </html>
